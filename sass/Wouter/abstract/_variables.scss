@@ -1,0 +1,13 @@
+// Colors
+$col-white: #fff;
+$col-black: #333;
+$col-med-grey: lighten($col-black, 50%);
+
+$col-pink: #c5007b;
+$col-purple: #8e1d5b;
+$col-yellow: #dc911a;
+$col-red: #9f1e23;
+
+// drop shadow
+$shadow-regular: 0 0.5rem 1rem rgba($col-black, 0.7);
+$shadow-near: 0 0.25rem 0.5rem rgba($col-black, 0.7);

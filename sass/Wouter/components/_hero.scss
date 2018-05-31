@@ -1,0 +1,38 @@
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba($col-purple, 0.7),
+      rgba($col-yellow, 0.7)
+    ),
+    url(../img/hero.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 10rem 0;
+
+  &__wrapper {
+    padding-right: 40%;
+  }
+
+  &__header {
+    color: $col-white;
+    text-shadow: $shadow-near;
+  }
+
+  &__text {
+    color: $col-white;
+    text-shadow: $shadow-near;
+    max-width: 35rem;
+  }
+
+  &__form {
+    &__input {
+      border: 1px solid $col-pink;
+      border-radius: 5px;
+      margin-right: 1rem;
+      padding: 0.5rem;
+      width: 20rem;
+      &::placeholder {
+        font-style: italic;
+      }
+    }
+  }
+}

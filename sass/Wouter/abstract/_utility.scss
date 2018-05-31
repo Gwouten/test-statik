@@ -1,0 +1,19 @@
+.u-wrapper {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 10rem;
+}
+
+.u-flexbox {
+  display: flex;
+  justify-content: space-between;
+
+  &--center {
+    align-items: center;
+  }
+
+  &--wrap {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,21 @@
+.cards {
+  margin-top: 3rem;
+
+  &__card {
+    border-radius: 1rem;
+    box-shadow: $shadow-near;
+    margin-bottom: 3rem;
+    padding: 0 1rem 1rem;
+    overflow: hidden;
+    width: 30%;
+
+    &__image {
+    }
+    &__header {
+    }
+    &__text {
+    }
+    &__arrow {
+    }
+  }
+}
